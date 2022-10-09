@@ -80,3 +80,4 @@ avro==1.10.2
 # Required for Kudu:
   Cython == 0.29.14
   pytz == 2020.1
+thrift>=0.13.0 # not directly required, pinned by Snyk to avoid a vulnerability
