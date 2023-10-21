@@ -72,7 +72,7 @@ under the License.
     <!-- xmlsec, bcprov-jdk15on and springframework are not used by Impala directly,
          but they are needed by pac4j. This uses a newer xmlsec/spring to address CVEs,
          but bcprov-jdk15on matches the versions from pac4j 4.5.5. -->
-    <xmlsec.version>2.2.3</xmlsec.version>
+    <xmlsec.version>2.2.6</xmlsec.version>
     <bcprov-jdk15on.version>1.68</bcprov-jdk15on.version>
     <springframework.version>5.3.18</springframework.version>
     <json-smart.version>2.4.7</json-smart.version>
