@@ -26,3 +26,4 @@ Flask==1.0.2
 # Paramiko directly to keep a persistent SSH connection open to each
 # Impalad host to run in-test monitoring.
 paramiko==2.4.2
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
